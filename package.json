@@ -10,6 +10,14 @@
   "devDependencies": {
     "babel": "^4.7.8"
   },
+  "homepage": "https://github.com/riobard/svgfont2js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riobard/svgfont2js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/riobard/svgfont2js/issues"
+  },
   "scripts": {
     "build": "babel src.js > index.js",
     "env": "env"
