@@ -2,6 +2,7 @@
   "name": "svgfont2js",
   "version": "0.1.1",
   "description": "Parse SVG font glyphs into JSON objects with normalized coordinates",
+  "keywords": ["SVG", "font", "glyph", "JSON"],
   "main": "index.js",
   "dependencies": {
     "svgpath": "^1.0.7",
