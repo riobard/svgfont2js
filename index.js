@@ -39,7 +39,7 @@ module.exports = function (xml) {
           for (var _iterator2 = font.glyph[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
             var g = _step2.value;
 
-            if (!g.$.d) {
+            if (!g.$.d || !g.$.unicode) {
               continue;
             } // skip empty glyph without path data
 
