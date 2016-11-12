@@ -21,7 +21,7 @@ export default function(xml) {
       const vdy = +font.$['vert-adv-y'] || em;    // height of glyph
 
       for (let g of font.glyph) {
-        if (!g.$.d) { continue; } // skip empty glyph without path data
+        if (!g.$.d || !g.$.unicode) { continue; } // skip empty glyph without path data
 
         const path = (new SVGPath(g.$.d))
           .translate(-hox, -hoy)  // move to origin (0, 0) in font coordinates
